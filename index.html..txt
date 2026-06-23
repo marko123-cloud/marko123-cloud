@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>PHC Capacity Building Staff Portal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #006699;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #004466;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: block;
+        }
+        nav a:hover {
+            background-color: #006699;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            background-color: white;
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #006699;
+        }
+        footer {
+            background-color: #006699;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        /* Add responsiveness */
+        @media(max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>PHC Capacity Building Staff Portal</h1>
+    <p>Easy access to training, resources, and updates</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#training">Training Materials</a>
+    <a href="#schedule">Schedules & Events</a>
+    <a href="#staff">Staff Directory</a>
+    <a href="#faq">FAQs</a>
+    <a href="#feedback">Feedback</a>
+</nav>
+
+<main>
+    <section id="about">
+        <h2>About the Program</h2>
+        <p>The Primary Health Care (PHC) Capacity Building Program aims to strengthen our health services through training, resource sharing, and collaboration.</p>
+    </section>
+
+    <section id="training">
+        <h2>Training Materials</h2>
+        <ul>
+            <li><a href="#">PHC Training Manual (PDF)</a></li>
+            <li><a href="#">Introduction to PHC Video</a></li>
+            <li><a href="#">COVID-19 Protocols Guide</a></li>
+        </ul>
+    </section>
+
+    <section id="schedule">
+        <h2>Schedules & Events</h2>
+        <p>Upcoming training sessions and meetings will be posted here.</p>
+        <ul>
+            <li>July 15, 2024 - Basic PHC Training</li>
+            <li>August 10, 2024 - Community Outreach Meeting</li>
+        </ul>
+    </section>
+
+    <section id="staff">
+        <h2>Staff Directory</h2>
+        <p>Contact information for team members:</p>
+        <ul>
+            <li>John Doe - Program Coordinator - johndoe@example.com</li>
+            <li>Jane Smith - Training Facilitator - janesmith@example.com</li>
+        </ul>
+    </section>
+
+    <section id="faq">
+        <h2>FAQs / Help</h2>
+        <p>Common questions and troubleshooting tips will be here.</p>
+    </section>
+
+    <section id="feedback">
+        <h2>Feedback & Suggestions</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="message">Your Feedback:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    &copy; 2024 PHC Capacity Building Program. All rights reserved.
+</footer>
+
+</body>
+</html>
